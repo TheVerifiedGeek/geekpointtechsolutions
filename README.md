@@ -77,11 +77,9 @@ Check out our full website: [GeekPoint Tech Solutions](https://theverifiedgeek.g
 
 ---
 
-## License & Copyright ©
+## License & Copyright 
 
-© <span id="year"></span> GeekPoint Tech Solutions. All Rights Reserved.
+© 2025 GeekPoint Tech Solutions. All Rights Reserved.
 
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+
 
