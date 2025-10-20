@@ -1,6 +1,6 @@
 # GeekPoint Tech Solutions 🌐
 
-![GeekPoint Tech Solutions Hero](https://theverifiedgeek.github.io/geekpointtechsolutions/assets/img/hero-preview.jpg)  
+![GeekPoint Tech Solutions Hero](https://theverifiedgeek.github.io/geekpointtechsolutions/assets/img/hero-preview.png)  
 *Your trusted partner for smart tech and security innovations.*
 
 [![Live Website](https://img.shields.io/badge/Live-Website-007bff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://theverifiedgeek.github.io/geekpointtechsolutions/)  
