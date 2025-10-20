@@ -1,52 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <!-- Home Page -->
+
+  <!-- Home -->
   <url>
     <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/</loc>
     <lastmod>2025-10-19</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- About Section -->
+  <!-- About -->
   <url>
     <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#about</loc>
     <lastmod>2025-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Services Section -->
+  <!-- Services -->
   <url>
     <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#services</loc>
     <lastmod>2025-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
   <!-- Individual Services -->
   <url>
-    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#services</loc>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#services-IT-Support</loc>
     <lastmod>2025-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#services-Web-Design</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#services-Security-Systems</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#services-AI-Automation</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#services-Network-Infrastructure</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#services-AI-Web3-Solutions</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#services-Crypto-Market-Analysis</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#services-Cloud-Solutions</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
   </url>
 
-  <!-- Projects Section -->
+  <!-- Projects -->
   <url>
     <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#projects</loc>
     <lastmod>2025-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Contact Section -->
+  <!-- Individual Projects -->
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#project-CCTV-installation</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#project-Network-installation</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#project-Web-Design</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#project-AI-Agents</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#project-Electric-Fence</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#project-Intruder-Alarm</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#project-Surveillance-Cameras</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#project-Biometrics-Access</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contact -->
   <url>
     <loc>https://theverifiedgeek.github.io/geekpointtechsolutions/#contact</loc>
     <lastmod>2025-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
