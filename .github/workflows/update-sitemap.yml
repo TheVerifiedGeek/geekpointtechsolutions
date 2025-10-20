@@ -1,0 +1,34 @@
+name: Update Sitemap
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at 00:00 UTC
+  push:
+    branches:
+      - main
+
+jobs:
+  update-sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Update sitemap.xml lastmod
+        run: |
+          TODAY=$(date +'%Y-%m-%d')
+          echo "Updating lastmod to $TODAY"
+          sed -i "s#<lastmod>.*</lastmod>#<lastmod>$TODAY</lastmod>#g" sitemap.xml
+
+      - name: Commit & Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml
+          git commit -m "Update sitemap lastmod to $TODAY" || echo "No changes to commit"
+          git push
