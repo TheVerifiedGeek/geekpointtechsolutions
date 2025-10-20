@@ -4,84 +4,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GeekPoint Tech Solutions | Sitemap</title>
-  <meta name="description" content="Sitemap for GeekPoint Tech Solutions – Navigate our IT services, security solutions, projects, and contact information.">
+  <link rel="stylesheet" href="assets/css/style.css"> <!-- your main stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
+    /* ===== SITEMAP SPECIFIC STYLING ===== */
     body {
-      font-family: 'Poppins', sans-serif;
-      background: #f5f7fa;
+      background: linear-gradient(135deg, #e6faff, #f5fff9);
       color: #222;
-      margin: 0;
-      padding: 40px;
+      font-family: 'Poppins', sans-serif;
     }
-    h1 {
+
+    .sitemap-container {
+      max-width: 1000px;
+      margin: 100px auto 50px;
+      padding: 20px;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(8px);
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+
+    .sitemap-container h1 {
+      font-size: 2.5rem;
+      color: #00e1ff;
       text-align: center;
-      color: #0066ff;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
-    ul {
+
+    .sitemap-list {
       list-style: none;
-      padding-left: 0;
+      padding: 0;
     }
-    li {
-      margin: 10px 0;
+
+    .sitemap-list li {
+      font-size: 1.1rem;
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
-    a {
+
+    .sitemap-list li a {
+      color: #0066ff;
       text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .sitemap-list li a:hover {
+      color: #00ffcc;
+      transform: scale(1.05);
+    }
+
+    /* icons */
+    .sitemap-list li i {
       color: #00cc99;
-      transition: color 0.3s;
+      min-width: 20px;
     }
-    a:hover {
-      color: #0099ff;
-    }
-    .section-title {
-      font-weight: 700;
-      font-size: 1.3rem;
-      margin-top: 30px;
-      color: #001f3f;
+
+    @media (max-width: 768px) {
+      .sitemap-container h1 {
+        font-size: 2rem;
+      }
+
+      .sitemap-list li {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>GeekPoint Tech Solutions Sitemap</h1>
-
-  <ul>
-    <li class="section-title"><a href="https://theverifiedgeek.github.io/geekpointtechsolutions/">Home</a></li>
-    <li class="section-title"><a href="#about">About Us</a></li>
-      <ul>
-        <li><a href="#about">Company Overview</a></li>
-        <li><a href="#about">AI & Web3 Expertise</a></li>
-        <li><a href="#about">Security & IT Solutions</a></li>
-      </ul>
-    <li class="section-title"><a href="#services">Our Services</a></li>
-      <ul>
-        <li><a href="#services">IT Support</a></li>
-        <li><a href="#services">Web & Design</a></li>
-        <li><a href="#services">Security Systems</a></li>
-        <li><a href="#services">AI & Automation</a></li>
-        <li><a href="#services">Network Infrastructure</a></li>
-        <li><a href="#services">AI & Web3 Solutions</a></li>
-        <li><a href="#services">Crypto & Market Analysis</a></li>
-        <li><a href="#services">Cloud Solutions</a></li>
-      </ul>
-    <li class="section-title"><a href="#projects">Our Projects</a></li>
-      <ul>
-        <li><a href="#projects">Smart Security Installation</a></li>
-        <li><a href="#projects">Network Setup & Configuration</a></li>
-        <li><a href="#projects">Web Design & Branding</a></li>
-        <li><a href="#projects">AI Agents & Trading</a></li>
-        <li><a href="#projects">Electric Fence Installation</a></li>
-        <li><a href="#projects">Intruder Alarm Setup & Configuration</a></li>
-        <li><a href="#projects">Surveillance Cameras</a></li>
-        <li><a href="#projects">Biometrics & Access Control</a></li>
-      </ul>
-    <li class="section-title"><a href="#contact">Contact Us</a></li>
-      <ul>
-        <li><a href="#contact">Send Message</a></li>
-        <li><a href="tel:+254101073236">Phone: +254 101 073236</a></li>
-        <li><a href="mailto:ngigidennis31198@gmail.com">Email: ngigidennis31198@gmail.com</a></li>
-        <li>Location: Nyeri – Ruringu, Kenya</li>
-      </ul>
-    <li class="section-title"><a href="https://theverifiedgeek.github.io/geekpointtechsolutions/">Live Website</a></li>
-  </ul>
+  <div class="sitemap-container">
+    <h1><i class="fa-solid fa-sitemap"></i> Sitemap</h1>
+    <ul class="sitemap-list">
+      <li><i class="fa-solid fa-house"></i> <a href="index.html#home">Home</a></li>
+      <li><i class="fa-solid fa-circle-info"></i> <a href="index.html#about">About Us</a></li>
+      <li><i class="fa-solid fa-gear"></i> <a href="index.html#services">Our Services</a></li>
+      <li><i class="fa-solid fa-diagram-project"></i> <a href="index.html#projects">Our Projects</a></li>
+      <li><i class="fa-solid fa-envelope"></i> <a href="index.html#contact">Contact Us</a></li>
+      <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/254101073236" target="_blank">WhatsApp</a></li>
+    </ul>
+  </div>
 </body>
 </html>
