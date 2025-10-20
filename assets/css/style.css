@@ -580,6 +580,10 @@ margin-top: 20px;
   padding: 25px 10px;
 }
 
+.footer p{
+margin-bottom: 10px;
+}
+
 .footer .socials a {
   color: #00ffcc;
   margin: 0 10px;
@@ -589,6 +593,18 @@ margin-top: 20px;
 
 .footer .socials a:hover {
   color: #fff;
+}
+/* ===== FOOTER SITEMAP===== */
+#sitemap{
+  background: none;
+  color: #001f3f;
+  padding: 25px 10px;
+}
+#sitemap p{
+margin-bottom: 10px;
+}
+#sitemap .socials a:hover {
+  color: #001f3f;
 }
 
 /* ===== ANIMATIONS ===== */
